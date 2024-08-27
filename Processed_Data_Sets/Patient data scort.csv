@@ -1,0 +1,232 @@
+﻿PATIENT_ID,TREATMENT_ARM,PRE_T_STAGE,PRE_N_STAGE_ADJUSTED,PRE_M_STAGE,POST_T_STAGE,POST_N_STAGE,POST_TNM,DUKES,SCREEN_DETECTED,AGE,GENDER,SITE,TUMOUR_DIFFERENTIATION,INVOLVED_LNS,TOTAL_LNS,EXTRA_MURAL_VENOUS_INVASION,CIRCUMFERENTIAL_RESECTION_MARGIN,TME_QUALITY,RESPONSE,DFS_STATUS,DFS_MONTHS,OS_STATUS,OS_MONTHS,DNN_PERCENTAGE_OF_TUMOUR_PURITY
+SC00551A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,54,M,rectum,NA,0,18,0,NA,NA,Complete,DiseaseFree,36,LIVING,97.15048131,13.494
+SC00552A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,65,F,rectum,NA,0,2,0,NA,2,Complete,DiseaseFree,36,LIVING,133.2490358,60.049
+SC00553A,Standard Cap RT,2,0,0,yT0,yN0,yT0N0,NA,N,69,M,rectum,NA,0,5,0,NA,2,Complete,DiseaseFree,36,LIVING,126.312064,69.305
+SC00554A,Standard Cap RT,2,0,0,yT0,yN0,yT0N0,NA,N,43,F,rectum,NA,0,15,0,NA,2,Complete,DiseaseFree,36,LIVING,116.8435907,NA
+SC00557A,Standard Cap RT,2,1,0,yT0,yN0,yT0N0,NA,N,72,F,rectum,NA,0,22,0,NA,3,Complete,DiseaseFree,36,LIVING,104.3175896,NA
+SC00558A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,91,M,rectum,NA,0,20,0,NA,2,Complete,DiseaseFree,36,DECEASED,92.38336802,27.441
+SC00559A,Standard Cap RT,3,2,0,yT3,yN1,yT3N1,C2,N,77,M,rectum,mod,2,7,1,0,2,Minimal,DiseaseFree,36,DECEASED,59.30946474,60.815
+SC00560A,Standard Cap RT,3,2,0,yT0,yN0,yT0N0,NA,N,61,M,rectum,NA,0,17,0,NA,3,Complete,DiseaseFree,36,LIVING,97.34774118,25.626
+SC00561A,Standard Cap RT,3,1,0,yT3,yN2,yT3N2,C2,N,72,M,rectum,poor,6,6,1,0,2,Minimal,Recurred/Progressed,6.279438894,DECEASED,9.830116383,33.05
+SC00562A,Standard Cap RT,2,1,0,yT2,yN0,yT2N0,A,Y,68,F,rectum,mod,0,13,0,32,3,Minimal,Recurred/Progressed,54.47659815,DECEASED,55.36426752,80.617
+SC00564A,Standard Cap RT,4,1,0,yT3,yN0,yT3N0,B,N,76,F,rectum,poor,0,16,0,3,1,Minimal,Recurred/Progressed,8.515050647,DECEASED,10.7506624,53.13
+SC00565A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,61,M,rectum,NA,0,15,0,NA,2,Complete,DiseaseFree,36,LIVING,89.85186648,80.133
+SC00566A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,Y,56,M,rectum,NA,0,13,0,NA,3,Complete,DiseaseFree,36,LIVING,66.87109272,38.576
+SC00567A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,66,F,rectum,mod,0,24,0,5,1,Good Partial,DiseaseFree,36,LIVING,87.221735,46.639
+SC00568A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,Y,68,M,rectum,NA,0,11,0,NA,3,Complete,DiseaseFree,36,LIVING,87.35324157,55.675
+SC00569A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,79,F,rectum,NA,0,18,0,NA,3,Complete,DiseaseFree,36,LIVING,84.03270059,53.969
+SC00570A,Standard Cap RT,3,0,0,yT3,yN0,yT3N0,B,N,62,F,rectum,mod,0,24,0,1,3,Minimal,DiseaseFree,36,LIVING,73.87381777,25.511
+SC00571A,Standard Cap RT,3,1,0,yT0,yN0,yT0N0,NA,N,49,F,rectum,NA,0,17,0,NA,NA,Complete,DiseaseFree,36,LIVING,84.13133052,NA
+SC00572A,Standard Cap RT,4,2,0,yT0,yN0,yT0N0,NA,N,78,F,rectum,NA,0,14,0,NA,1,Complete,DiseaseFree,36,LIVING,82.84914143,62.399
+SC00573A,Standard Cap RT,3,1,0,yT0,yN0,yT0N0,NA,Y,71,M,rectum,NA,0,14,0,NA,3,Complete,DiseaseFree,36,LIVING,78.80531428,70.833
+SC00574A,Standard Cap RT,3,1,0,yT0,yN0,yT0N0,NA,N,52,F,rectum,NA,0,30,0,NA,3,Complete,DiseaseFree,36,LIVING,70.68478336,44.726
+SC00575A,Standard Cap RT,3,1,0,yT0,yN0,yT0N0,NA,N,64,M,rectum,NA,0,12,0,NA,3,Complete,DiseaseFree,36,LIVING,76.73408575,52.293
+SC00576A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,73,F,rectum,NA,0,22,0,NA,2,Complete,DiseaseFree,36,LIVING,74.76148714,70.812
+SC00577A,Standard Cap RT,3,1,0,yT0,yN0,yT0N0,NA,N,73,M,rectum,NA,0,18,0,NA,2,Complete,DiseaseFree,36,DECEASED,37.31499029,36.137
+SC00578A,Standard Cap RT,x,1,0,yT0,yN0,yT0N0,NA,N,50,F,rectum,NA,0,12,0,NA,2,Complete,DiseaseFree,36,LIVING,77.7532617,NA
+SC00579A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,Y,69,F,rectum,NA,0,23,0,NA,3,Complete,DiseaseFree,36,LIVING,73.01902504,63.123
+SC00581A,Standard Cap RT,2,1,0,yT0,yN0,yT0N0,NA,N,69,M,rectum,NA,0,21,0,NA,3,Complete,DiseaseFree,36,LIVING,61.97247285,66.861
+SC00582A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,Y,69,F,rectum,NA,0,33,0,NA,3,Complete,DiseaseFree,36,LIVING,64.04370139,77.657
+SC00583A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,61,M,rectum,NA,0,17,0,NA,NA,Complete,DiseaseFree,36,LIVING,59.24371145,53.354
+SC00584A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,77,F,rectum,NA,0,20,0,NA,3,Complete,DiseaseFree,36,LIVING,64.93137076,NA
+SC00585A,Standard Cap RT,1,0,0,yT0,yN0,yT0N0,NA,Y,69,M,rectum,NA,0,15,0,NA,2,Complete,DiseaseFree,36,LIVING,66.60807957,70.451
+SC00587A,Standard Cap RT,3,1,0,yT0,yN0,yT0N0,NA,N,64,F,rectum,NA,0,20,0,NA,2,Complete,DiseaseFree,30.57527838,LIVING,30.57527838,62.826
+SC00588A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,74,F,rectum,mod,0,13,0,20,3,Minimal,Recurred/Progressed,26.46569796,DECEASED,39.02457574,75.351
+SC00589A,Standard Cap RT,2,0,0,yT0,yN0,yT0N0,NA,N,57,M,rectum,NA,0,13,0,NA,3,Complete,Recurred/Progressed,41.35881743,LIVING,57.994399,48.84
+SC00590A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,62,M,rectum,NA,0,18,0,NA,3,Complete,DiseaseFree,36,LIVING,55.56152738,75.609
+SC00591A,Standard Cap RT,2,0,0,yT0,yN0,yT0N0,NA,N,45,M,rectum,NA,0,17,0,NA,3,Complete,DiseaseFree,36,LIVING,47.21085996,NA
+SC00592A,Standard Cap RT,x,0,0,yT0,yN0,yT0N0,NA,N,61,F,rectum,NA,0,14,0,NA,1,Complete,Recurred/Progressed,5.556152738,DECEASED,30.44377181,62.009
+SC00594A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,36,M,rectum,NA,0,25,0,NA,3,Complete,DiseaseFree,36,LIVING,41.55607729,62.39
+SC00595A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,68,M,rectum,mod,0,26,0,8,3,Minimal,DiseaseFree,34.35609238,LIVING,34.35609238,54.9
+SC00596A,oxali/cape/rt - the Socrates regimen,4,0,0,yT3,yN0,yT3N0,B,Y,71,M,rectum,mod,0,18,1,15,3,Minimal,DiseaseFree,0,DECEASED,9.468473306,33.351
+SC00597A,Standard Cap RT,2,0,0,yT0,yN0,yT0N0,NA,N,61,M,rectum,NA,0,17,0,NA,3,Complete,DiseaseFree,32.71226021,LIVING,32.71226021,38.547
+SC00598A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,70,M,rectum,NA,0,13,0,NA,3,Complete,DiseaseFree,32.15335727,LIVING,32.15335727,28.378
+SC00599A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,N,72,F,rectum,NA,0,19,0,NA,3,Complete,DiseaseFree,24.06570299,LIVING,24.06570299,63.35
+SC00600A,Standard Cap RT,3,0,0,yT0,yN0,yT0N0,NA,Y,60,M,rectum,NA,0,17,0,NA,3,Complete,DiseaseFree,28.93144621,LIVING,28.93144621,57.28
+SC00956A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN0,yT3N0,B,N,87,M,rectum,mod,0,11,0,23,NA,Good Partial,DiseaseFree,0,NA,36,44.931
+SC00957A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,68,M,rectum,mod,0,19,0,18,3,Good Partial,DiseaseFree,36,LIVING,114.9696221,59.854
+SC00958A,oxali/cape/rt - the Socrates regimen,3,2,0,yT1,yN0,yT1N0,A,N,64,M,rectum,mod,0,19,0,5,2,Good Partial,DiseaseFree,0,NA,36,38.375
+SC00959A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,64,M,rectum,mod,0,14,0,8,1,Good Partial,DiseaseFree,36,LIVING,36,60.921
+SC00960A,oxali/cape/rt - the Socrates regimen,3,2,0,yT3,yN0,yT3N0,B,N,67,F,rectum,mod,0,12,0,18,3,Good Partial,DiseaseFree,0,NA,36,50.698
+SC00961A,Standard Cap RT,3,0,0,yT1,yN0,yT1N0,A,N,67,F,rectum,mod,0,16,0,6,1,Good Partial,DiseaseFree,36,LIVING,123.2216595,85.965
+SC00962A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,N,84,M,rectum,mod,0,11,0,18,2,Good Partial,DiseaseFree,36,LIVING,36,72.297
+SC00963A,Standard Cap RT,no MRI,x,1,yT0,yN2,yT0N2,C1,N,66,F,rectum,mod,4,14,1,20,3,Good Partial,DiseaseFree,36,LIVING,36,48.972
+SC00964A,oxali/cape/rt - the Socrates regimen,3,2,0,yT1,yN0,yT1N0,A,N,76,M,rectum,mod,0,9,0,14,2,Good Partial,DiseaseFree,0,NA,36,51.462
+SC00965A,oxali/cape/rt - the Socrates regimen,no MRI,x,0,yT2,yN0,yT2N0,A,N,54,M,rectum,mod,0,12,0,12,2,Good Partial,DiseaseFree,0,NA,36,8.472
+SC00966A,Standard Cap RT,3,0,0,yT1,yN0,yT1N0,A,Y,67,F,rectum,mod,0,17,0,6,2,Good Partial,DiseaseFree,36,LIVING,100.7997887,77.568
+SC00967A,Standard Cap RT,2,0,0,yT2,yN0,yT2N0,A,N,61,F,rectum,mod,0,9,0,30,NA,Good Partial,DiseaseFree,36,LIVING,112.6025037,58.539
+SC00968A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,83,M,rectum,mod,1,13,0,8,1,Partial,DiseaseFree,36,LIVING,36,64.294
+SC00969A,Standard Cap RT,3,0,0,yT1,yN0,yT1N0,A,N,75,M,rectum,mod,0,13,0,21,2,Good Partial,DiseaseFree,36,LIVING,36,45.797
+SC00970A,oxali/cape/rt - the Socrates regimen,3,2,0,yT2,yN0,yT2N0,A,N,56,M,rectum,mod,0,11,0,35,2,Good Partial,DiseaseFree,0,NA,36,27.246
+SC00971A,oxali/cape/rt - the Socrates regimen,3,1,0,yT4,yN0,yT4N0,B,N,50,F,rectum,mod,0,18,0,0,1,Partial,DiseaseFree,0,NA,36,48.742
+SC00972A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,73,M,rectum,mod,0,7,0,4,2,Good Partial,DiseaseFree,36,DECEASED,91.462822,77.807
+SC00973A,Standard Cap RT,3,0,0,yT1,yN0,yT1N0,A,N,66,F,rectum,mod,0,16,0,9,1,Good Partial,DiseaseFree,36,LIVING,113.8846928,22.132
+SC00974A,Standard Cap RT,no MRI,NA,NA,yT3,yN0,yT3N0,B,N,76,M,rectum,mod,0,16,0,4,2,Good Partial,DiseaseFree,36,LIVING,36,69.302
+SC00975A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN0,yT3N0,B,N,71,M,rectum,mod,0,13,1,10,3,Good Partial,DiseaseFree,0,NA,36,80.753
+SC00976A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,Y,42,F,rectum,mod,0,20,0,15,3,Good Partial,DiseaseFree,36,DECEASED,81.96147205,29.114
+SC00977A,Standard Cap RT,3,2,0,yT1,yN0,yT1N0,A,N,77,F,rectum,mod,0,27,0,NA,3,Good Partial,DiseaseFree,36,LIVING,99.64910622,59.684
+SC00978A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN0,yT3N0,B,N,54,M,rectum,mod,0,17,0,9,2,Good Partial,DiseaseFree,0,NA,36,23.12
+SC00979A,Standard Cap RT,2,0,0,yT3,yN2,yT3N2,C1,N,72,M,rectum,mucinous,4,18,0,2,3,Good Partial,DiseaseFree,36,LIVING,102.8710173,62.943
+SC00980A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT1,yN0,yT1N0,A,N,77,M,rectum,mod,0,19,0,9,2,Good Partial,DiseaseFree,0,NA,36,41.84
+SC00981A,oxali/cape/rt - the Socrates regimen,3,1,0,yT2,yN0,yT2N0,A,N,73,F,rectum,mod,0,11,0,NA,2,Good Partial,DiseaseFree,0,NA,36,37.872
+SC00982A,Standard Cap RT,3,1,0,yT1,yN0,yT1N0,A,N,67,M,rectum,mod,0,10,0,9,2,Good Partial,DiseaseFree,36,LIVING,108.7230598,NA
+SC00983A,Standard Cap RT,4,2,0,yT2,yN0,yT2N0,A,N,53,F,rectum,mod,0,15,0,15,3,Good Partial,DiseaseFree,36,LIVING,94.12583012,NA
+SC00984A,Standard Cap RT,3,2,0,yT1,yN0,yT1N0,A,N,65,M,rectum,mod,0,14,0,8,3,Good Partial,Recurred/Progressed,27.97802355,DECEASED,35.01362525,NA
+SC00985A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT2,yN0,yT2N0,A,N,42,M,rectum,mod,0,19,0,15,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC00986A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,Y,62,M,rectum,mod,0,19,0,9,3,Good Partial,DiseaseFree,36,LIVING,99.28746314,NA
+SC00987A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,N,63,M,rectum,mod,0,16,0,15,3,Good Partial,DiseaseFree,36,DECEASED,65.42452041,NA
+SC00988A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN0,yT3N0,B,N,81,F,rectum,mod,0,18,0,2,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC00989A,Standard Cap RT,3,0,0,yT2,yN1,yT2N1,C1,N,79,F,rectum,mod,3,15,0,18,3,Good Partial,DiseaseFree,36,LIVING,137.2928629,NA
+SC00990A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT2,yN0,yT2N0,A,N,58,M,rectum,mod,0,12,0,7,1,Good Partial,DiseaseFree,0,NA,36,NA
+SC00991A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,69,M,rectum,mod,0,10,0,4,2,Good Partial,DiseaseFree,4.076703784,DECEASED,4.076703784,NA
+SC00992A,Standard Cap RT,2,1,0,yT1,yN1,yT1N1,C1,N,47,F,rectum,mod,2,12,0,6,3,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC00993A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,Y,66,M,rectum,mod,0,12,0,8,3,Good Partial,DiseaseFree,36,DECEASED,68.77793804,NA
+SC00994A,oxali/cape/rt - the Socrates regimen,4,0,0,yT0,yN1,yT0N1,C1,N,70,F,rectum,mod,2,10,0,15,2,Good Partial,DiseaseFree,0,NA,36,NA
+SC00995A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT2,yN0,yT2N0,A,N,73,M,rectum,mod,0,20,0,5,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC00996A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,N,89,F,rectum,mod,0,19,0,11,3,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC00997A,Standard Cap RT,3,0,0,yT1,yN0,yT1N0,A,N,46,M,rectum,mod,0,14,0,10,3,Good Partial,DiseaseFree,36,LIVING,41.32594078,NA
+SC00998A,Standard Cap RT,3,2,0,yT3,yN0,yT3N0,B,N,53,F,rectum,mod,0,21,0,7.3,3,Partial,DiseaseFree,36,LIVING,94.81623963,NA
+SC00999A,Standard Cap RT,2,0,0,yT1,yN0,yT1N0,A,N,77,M,rectum,mod,0,19,0,3,3,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01000A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,68,M,rectum,mod,0,9,0,11,2,Good Partial,DiseaseFree,36,DECEASED,125.6545312,NA
+SC01001A,no concurrent chemo -  25Gy/5#s with delay,NA,NA,NA,yT2,yN0,yT2N0,A,N,81,M,rectum,mod,0,23,0,2.5,2,Good Partial,DiseaseFree,0,NA,36,NA
+SC01002A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN2,yT3N2,C1,N,80,F,rectum,mod,4,22,0,0,1,Good Partial,DiseaseFree,0,NA,36,NA
+SC01003A,oxali/cape/rt - the Socrates regimen,3,0,0,yT3,yN1,yT3N1,C1,N,60,M,rectum,mod,1,41,0,10,1,Partial,DiseaseFree,0,NA,36,NA
+SC01004A,Standard Cap RT,2,0,0,yT2,yN0,yT2N0,A,N,54,F,rectum,mod,0,12,0,5,3,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01005A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN0,yT3N0,B,N,58,M,rectum,mod,0,15,0,3,2,Good Partial,DiseaseFree,0,NA,36,NA
+SC01006A,Standard Cap RT,3,0,0,yT1,yN0,yT1N0,A,N,72,F,rectum,mod,0,7,0,4,2,Good Partial,DiseaseFree,36,LIVING,120.3613916,NA
+SC01007A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,70,F,rectum,mod,0,16,0,NA,2,Good Partial,DiseaseFree,36,DECEASED,98.79431349,NA
+SC01008A,Standard Cap RT,3,2,0,yT3,yN0,yT3N0,B,N,69,F,rectum,mod,0,13,0,3,3,Good Partial,DiseaseFree,36,LIVING,94.81623963,NA
+SC01009A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,55,M,rectum,mod,0,17,0,25,3,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01010A,Standard Cap RT,2,0,0,yT1,yN0,yT1N0,A,N,67,M,rectum,mod,0,21,0,13,3,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01011A,Standard Cap RT,2,0,0,yT2,yN0,yT2N0,A,N,71,M,rectum,mod,0,10,0,20,3,Good Partial,DiseaseFree,36,LIVING,117.5011236,NA
+SC01012A,Standard Cap RT,3,2,0,yT3,yN1,yT3N1,C1,N,76,F,rectum,mod,2,22,0,5,3,Good Partial,Recurred/Progressed,23.90131977,DECEASED,26.39994467,NA
+SC01013A,no concurrent chemo - 50Gy/25#s,3,1,0,yT2,yN0,yT2N0,A,N,79,M,rectum,mod,0,12,0,NA,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC01014A,oxali/cape/rt - the Socrates regimen,3,1,0,yT0,yN1,yT0N1,C1,N,51,M,rectum,mod,1,25,0,3,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC01015A,no concurrent chemo - 50Gy/25#s,2,0,0,yT2,yN0,yT2N0,A,N,83,M,rectum,mod,0,9,0,5,2,Good Partial,DiseaseFree,0,NA,36,NA
+SC01016A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,Y,54,M,rectum,mod,0,14,0,17.5,3,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01018A,Standard Cap RT,3,0,0,yT3,yN1,yT3N1,C1,N,73,M,rectum,mod,1,7,0,7,NA,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01019A,Standard Cap RT,3,0,0,yT3,yN0,yT3N0,B,N,59,F,rectum,mod,0,21,0,15,2,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01020A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT2,yN0,yT2N0,A,N,47,M,rectum,mod,0,9,0,8.2,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC01021A,oxali/cape/rt - the Socrates regimen,3,0,0,yT3,yN0,yT3N0,B,N,67,M,rectum,mod,0,16,0,8,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC01022A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN0,yT3N0,B,N,55,M,rectum,mod,0,11,0,20,2,Good Partial,DiseaseFree,0,NA,36,NA
+SC01024A,oxali/cape/rt - the Socrates regimen,3,2,0,yT2,yN0,yT2N0,A,N,65,F,rectum,mod,0,10,0,6,3,Good Partial,DiseaseFree,0,NA,36,NA
+SC01025A,Standard Cap RT,2,0,0,yT1,yN0,yT1N0,A,N,76,M,rectum,mod,0,11,0,13,1,Good Partial,DiseaseFree,36,LIVING,36,NA
+SC01026A,Standard Cap RT,3,0,0,yT1,yN0,yT1N0,A,N,59,M,rectum,mod,0,4,0,30,3,Good Partial,DiseaseFree,36,LIVING,121.1175544,48.569
+SC01027A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,73,M,rectum,mod,0,16,0,25,3,Good Partial,DiseaseFree,36,LIVING,123.5175493,24.889
+SC01028A,Standard Cap RT,2,0,0,yT2,yN0,yT2N0,A,N,52,F,rectum,mod,0,10,0,5,3,Good Partial,DiseaseFree,36,LIVING,98.53130034,30.892
+SC01029A,no concurrent chemo - 50Gy/25#s,2,0,0,yT2,yN0,yT2N0,A,N,56,M,rectum,mod,0,12,0,2,1,Good Partial,DiseaseFree,0,NA,36,33.21
+SC01030A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,78,M,rectum,mod,0,10,0,20,1,Good Partial,Recurred/Progressed,112.668257,DECEASED,113.6545563,56.228
+SC01031A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN1,yT3N1,C1,Y,52,M,rectum,mod,2,16,0,0,3,Partial,DiseaseFree,0,NA,36,36.998
+SC01032A,no concurrent chemo - 50Gy/25#s,NA,NA,NA,yT1,yN0,yT1N0,A,N,87,F,rectum,mod,0,17,0,10,3,Good Partial,DiseaseFree,0,NA,36,38.09
+SC01033A,Standard Cap RT,2,0,0,yT1,yN0,yT1N0,A,N,67,F,rectum,mod,0,15,0,3,2,Good Partial,DiseaseFree,36,LIVING,130.0600014,75.102
+SC01034A,Standard Cap RT,3,0,0,yT3,yN0,yT3N0,B,N,71,F,rectum,mod,0,24,0,2.5,3,Partial,Recurred/Progressed,24.16433292,DECEASED,36.16430777,66.901
+SC01035A,Standard Cap RT,3,1,0,yT1,yN0,yT1N0,A,N,76,F,rectum,mod,0,9,0,10,3,Good Partial,DiseaseFree,36,LIVING,36,59.351
+SC01036A,no concurrent chemo - 50Gy/25#s,3,0,0,yT2,yN0,yT2N0,A,N,79,M,rectum,mod,0,15,0,25,3,Good Partial,DiseaseFree,0,NA,36,49.152
+SC01037A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,N,68,M,rectum,mod,0,14,0,23,2,Good Partial,DiseaseFree,36,LIVING,86.9915985,60.285
+SC01038A,Standard Cap RT,4,0,0,yT3,yN0,yT3N0,B,N,78,M,rectum,mod,0,10,1,9,2,Good Partial,DiseaseFree,36,LIVING,36,31.712
+SC01039A,Standard Cap RT,3,2,0,yT3,yN0,yT3N0,B,N,77,M,rectum,mod,0,20,0,25.5,2,Good Partial,DiseaseFree,36,LIVING,84.85461667,32.375
+SC01040A,no concurrent chemo - 50Gy/25#s,NA,NA,NA,yT3,yN0,yT3N0,B,N,67,M,rectum,mod,0,19,0,NA,NA,Good Partial,DiseaseFree,0,NA,36,68.786
+SC01190A,Standard Cap RT,NA,NA,NA,yT3,yN1,yT3N1,C1,N,74,M,rectum,mucinous,3,12,0,5.5,2,Partial,DiseaseFree,36,LIVING,36,75.44
+SC01192A,Standard Cap RT,3,0,0,yT3,yN1,yT3N1,C1,N,69,M,rectum,mod,1,15,0,6,2,Partial,DiseaseFree,0,DECEASED,0,25.074
+SC01193A,no concurrent chemo - 50Gy/25#s,NA,NA,NA,yT2,yN0,yT2N0,A,N,71,F,rectum,mod,0,14,0,6,2,Partial,DiseaseFree,0,NA,36,63.319
+SC01194A,no concurrent chemo - 50Gy/25#s,NA,NA,NA,yT2,yN1,yT2N1,C1,N,84,F,rectum,mod,1,23,0,2,2,Partial,DiseaseFree,0,NA,36,35.233
+SC01195A,no concurrent chemo - 50Gy/25#s,NA,NA,NA,yT2,yN0,yT2N0,A,N,82,M,rectum,poor,0,16,0,5,3,Partial,DiseaseFree,0,NA,36,45.405
+SC01196A,Standard Cap RT,3,2,0,yT2,yN1,yT2N1,C1,N,67,M,rectum,mod,2,11,0,13.5,2,Partial,DiseaseFree,0,DECEASED,0,37.895
+SC01198A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,69,M,rectum,mod,2,8,0,7,3,Partial,DiseaseFree,0,DECEASED,0,50.015
+SC01199A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN0,yT3N0,B,N,52,M,rectum,mod,0,12,0,1,2,Partial,DiseaseFree,0,NA,36,41.348
+SC01200A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN1,yT3N1,C1,N,74,F,rectum,mod,1,13,0,11.5,2,Partial,DiseaseFree,0,NA,36,40.193
+SC01201A,Standard Cap RT,2,1,0,yT3,yN0,yT3N0,B,N,74,M,rectum,mod,0,7,0,16,3,Partial,DiseaseFree,36,LIVING,36,45.989
+SC01202A,Standard Cap RT,NA,NA,NA,yT2,yN0,yT2N0,A,N,81,M,rectum,mod,0,11,0,15,1,Partial,DiseaseFree,36,LIVING,36,29.505
+SC01205A,Standard Cap RT,3,2,1,yT3,yN1,yT3N1,C1,Y,64,M,rectum,mod,2,11,0,7,2,Partial,Recurred/Progressed,8.515050647,LIVING,130.7832875,15.164
+SC01206A,Standard Cap RT,NA,NA,NA,yT2,yN0,yT2N0,A,N,71,M,rectum,mod,0,10,0,9,1,Partial,DiseaseFree,36,LIVING,36,49.068
+SC01209A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,68,M,rectum,mod,0,5,0,14,2,Partial,DiseaseFree,36,DECEASED,108.0326503,66.697
+SC01210A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN0,yT3N0,B,N,58,M,rectum,mod,0,17,0,0,2,Partial,DiseaseFree,0,NA,36,61.124
+SC01211A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,71,M,rectum,mod,0,13,0,5,1,Partial,DiseaseFree,36,LIVING,125.5887779,39.824
+SC01212A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN1,yT3N1,C1,N,71,M,rectum,mod,1,30,0,7,3,Partial,DiseaseFree,0,NA,36,67.23
+SC01213A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN0,yT3N0,B,N,80,M,rectum,mod,0,1,0,0,1,Partial,DiseaseFree,0,NA,36,47.36
+SC01216A,no concurrent chemo - 50Gy/25#s,NA,NA,NA,yT2,yN0,yT2N0,A,N,79,M,rectum,mod,0,13,0,14,2,Partial,DiseaseFree,0,NA,36,85.672
+SC01217A,oxali/cape/rt - the Socrates regimen,3,2,0,yT3,yN2,yT3N2,C2,N,43,M,rectum,poor,5,12,0,1.5,2,Partial,DiseaseFree,0,NA,36,33.967
+SC01218A,Standard Cap RT,3,0,0,yT2,yN1,yT2N1,C1,N,63,F,rectum,mod,2,25,0,10,2,Partial,DiseaseFree,36,LIVING,115.8244148,24.35
+SC01219A,no concurrent chemo - 50Gy/25#s,NA,NA,NA,yT3,yN0,yT3N0,B,N,81,M,rectum,mod,0,9,0,3.5,2,Partial,DiseaseFree,0,NA,36,69.938
+SC01220A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,64,M,rectum,mod,0,19,0,1.5,1,Partial,DiseaseFree,36,LIVING,36,53.952
+SC01221A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,57,M,rectum,mod,1,22,0,2.5,2,Partial,DiseaseFree,36,LIVING,36,43.75
+SC01222A,no concurrent chemo -  25Gy/5#s with delay,2,0,0,yT1,yN0,yT1N0,A,N,63,M,rectum,mod,0,19,0,15,2,Partial,DiseaseFree,0,NA,36,76.605
+SC01225A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN1,yT3N1,C1,N,63,F,rectum,mod,1,27,0,1,2,Partial,DiseaseFree,0,NA,36,49.31
+SC01227A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN0,yT3N0,B,N,85,M,rectum,mod,0,16,0,4,2,Partial,DiseaseFree,0,NA,36,42.315
+SC01228A,oxali/cape/rt - the Socrates regimen,3,2,0,yT3,yN1,yT3N1,C1,N,63,M,rectum,mod,1,15,0,1,3,Partial,DiseaseFree,0,NA,36,29.982
+SC01229A,oxali/cape/rt - the Socrates regimen,3,0,0,yT4,yN0,yT4N0,B,N,52,F,rectum,mod,0,19,0,0,2,Partial,DiseaseFree,0,NA,36,41.894
+SC01230A,oxali/cape/rt - the Socrates regimen,3,2,0,yT3,yN0,yT3N0,B,N,69,F,rectum,mod,0,11,0,18,2,Partial,DiseaseFree,0,NA,36,53.45
+SC01231A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN1,yT3N1,C1,Y,40,F,rectum,mod,2,21,0,<1,2,Partial,DiseaseFree,0,NA,36,22.719
+SC01232A,no concurrent chemo -  25Gy/5#s with delay,2,0,0,yT2,yN0,yT2N0,A,Y,66,M,rectum,mod,0,17,0,4,3,Partial,DiseaseFree,0,NA,36,55.927
+SC01233A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,80,M,rectum,mod,2,8,0,6,3,Partial,DiseaseFree,26.07117823,DECEASED,26.07117823,60.51
+SC01235A,Standard Cap RT,3,1,0,yT3,yN2,yT3N2,C1,N,59,M,rectum,mod,7,24,0,3,3,Partial,Recurred/Progressed,17.16160787,DECEASED,20.5150255,14.232
+SC01236A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN0,yT3N0,B,N,72,M,rectum,mod,0,13,0,7,2,Partial,DiseaseFree,0,NA,36,24.557
+SC01238A,Standard Cap RT,4,1,0,yT3,yN0,yT3N0,B,N,45,F,rectum,mod,0,17,0,15,3,Partial,DiseaseFree,36,LIVING,86.59707878,53.21
+SC01239A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,73,F,rectum,mod,2,28,0,3,2,Partial,DiseaseFree,36,LIVING,36,54.101
+SC01241A,Standard Cap RT,3,0,0,yT2,yN0,yT2N0,A,N,48,M,rectum,mod,0,21,0,20,2,Partial,DiseaseFree,36,LIVING,91.33131543,57.412
+SC01242A,oxali/cape/rt - the Socrates regimen,3,2,1,yT3,yN1,yT3N1,C2,Y,61,M,rectum,mod,1,12,0,1.1,1,Partial,DiseaseFree,0,NA,36,59.968
+SC01243A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT2,yN0,yT2N0,A,Y,56,M,rectum,mod,0,12,0,14,2,Partial,DiseaseFree,0,NA,36,51.001
+SC01244A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,65,F,rectum,mod,0,20,0,6,2,Partial,DiseaseFree,0,DECEASED,0,65.75
+SC01245A,Standard Cap RT,3,2,0,yT3,yN1,yT3N1,C1,N,47,M,rectum,mod,2,13,0,8,NA,Partial,DiseaseFree,36,LIVING,36,59.359
+SC01246A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,Y,51,M,rectum,mod,0,15,0,6.6,2,Partial,DiseaseFree,36,LIVING,79.92312016,26.634
+SC01248A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,49,M,rectum,mod,0,17,0,5.8,3,Partial,DiseaseFree,36,LIVING,36,87.132
+SC01249A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,63,F,rectum,mod,0,20,0,22,3,Partial,DiseaseFree,36,LIVING,84.98612325,70.724
+SC01250A,no concurrent chemo -  25Gy/5#s with delay,2,0,0,yT2,yN1,yT2N1,C1,N,84,M,rectum,mod,1,11,0,10,3,Partial,DiseaseFree,0,NA,36,50.222
+SC01251A,oxali/cape/rt - the Socrates regimen,3,1,1,yT3,yN1,yT3N1,C1,N,39,M,rectum,mod,3,18,0,2,3,Partial,DiseaseFree,0,NA,36,55.5
+SC01252A,no concurrent chemo -  25Gy/5#s with delay,2,0,0,yT2,yN1,yT2N1,C1,N,82,F,rectum,mod,3,12,0,15,3,Partial,DiseaseFree,0,NA,36,49.697
+SC01254A,Standard Cap RT,3,0,0,yT3,yN1,yT3N1,C1,N,60,M,rectum,mod,1,15,0,17,3,Partial,Recurred/Progressed,21.66570802,DECEASED,86.76146199,73.61
+SC01255A,oxali/cape/rt - the Socrates regimen,3,1,0,yT2,yN1,yT2N1,C1,Y,64,M,rectum,mod,2,7,0,2.5,1,Partial,DiseaseFree,0,NA,36,57.637
+SC01257A,no concurrent chemo -  25Gy/5#s with delay,4,0,0,yT4,yN0,yT4N0,B,N,86,M,rectum,mod,0,20,0,6,3,Partial,DiseaseFree,0,NA,36,55.703
+SC01258A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN2,yT3N2,C2,N,79,M,rectum,mod,4,23,0,8,3,Partial,DiseaseFree,0,NA,36,25.057
+SC01260A,no concurrent chemo -  25Gy/5#s with delay,2,0,1,yT1,yN1,yT1N1,C1,N,75,F,rectum,mod,2,15,0,0,3,Partial,DiseaseFree,0,NA,36,36.785
+SC01261A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,56,F,rectum,mod,1,12,0,0,2,Partial,Recurred/Progressed,15.7479122,DECEASED,34.84924203,34.812
+SC01262A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN0,yT3N0,B,N,80,M,rectum,mod,0,12,0,0,1,Partial,DiseaseFree,0,NA,36,58.864
+SC01264A,oxali/cape/rt - the Socrates regimen,x,2,0,yT1,yN0,yT1N0,A,N,72,M,rectum,mod,0,27,0,35,3,Partial,DiseaseFree,0,NA,36,29.172
+SC01265A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN0,yT3N0,B,N,49,M,rectum,mod,0,12,0,9,3,Partial,DiseaseFree,0,NA,36,34.532
+SC01266A,no concurrent chemo -  25Gy/5#s with delay,NA,NA,NA,yT1,yN0,yT1N0,A,N,59,F,rectum,mod,0,20,0,18,2,Partial,DiseaseFree,0,NA,36,22.686
+SC01267A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN0,yT3N0,B,N,58,M,rectum,mod,0,10,0,5,1,Partial,DiseaseFree,0,NA,36,40.288
+SC01268A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,75,M,rectum,mod,1,17,0,1.2,1,Partial,DiseaseFree,36,LIVING,36,44.233
+SC01269A,Standard Cap RT,3,1,0,yT3,yN2,yT3N2,C1,N,63,M,rectum,mod,4,18,0,5,2,Partial,Recurred/Progressed,33.53417629,DECEASED,56.31769018,33.903
+SC01270A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN2,yT3N2,C1,N,67,M,rectum,mod,4,24,0,2,3,Partial,DiseaseFree,0,NA,36,45.907
+SC01271A,Standard Cap RT,4,0,0,yT3,yN1,yT3N1,C1,N,53,M,rectum,mod,1,19,0,0,2,Partial,Recurred/Progressed,25.67665851,DECEASED,38.69580931,52.679
+SC01272A,Standard Cap RT,3,1,0,yT3,yN1,yT3N1,C1,N,69,F,rectum,mod,1,12,0,3,3,Partial,Recurred/Progressed,27.84651698,DECEASED,34.02732594,59.663
+SC01273A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT1,yN0,yT1N0,A,N,83,M,rectum,mod,0,23,0,10,3,Partial,DiseaseFree,0,NA,36,74.191
+SC01274A,Standard Cap RT,4,1,0,yT3,yN0,yT3N0,B,N,76,F,rectum,mod,0,18,0,0,1,Partial,Recurred/Progressed,14.49859975,DECEASED,33.10677993,31.147
+SC01275A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN0,yT3N0,B,N,84,F,rectum,mod,0,18,0,27,NA,Partial,DiseaseFree,0,NA,36,39.833
+SC01276A,oxali/cape/rt - the Socrates regimen,4,1,0,yT4,yN0,yT4N0,B,N,63,F,rectum,mod,0,9,0,0,2,Partial,DiseaseFree,0,NA,36,75.582
+SC01277A,oxali/cape/rt - the Socrates regimen,4,1,0,yT3,yN1,yT3N1,C1,N,65,M,rectum,mod,1,18,0,1,1,Partial,DiseaseFree,0,NA,36,65.59
+SC01278A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN1,yT3N1,C1,Y,69,M,rectum,mod,3,17,0,3,3,Partial,DiseaseFree,56.02180039,LIVING,56.02180039,55.381
+SC01279A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN1,yT3N1,C1,N,89,M,rectum,mod,1,20,0,0,2,Partial,DiseaseFree,0,NA,36,48.13
+SC01281A,no concurrent chemo -  25Gy/5#s with delay,2,1,0,yT3,yN1,yT3N1,C1,Y,75,M,rectum,mod,2,21,0,0,3,Partial,DiseaseFree,0,NA,36,69.491
+SC01282A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN0,yT3N0,B,N,66,F,rectum,mod,0,12,0,6,1,Partial,DiseaseFree,0,NA,36,36.108
+SC01283A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,78,M,rectum,mod,0,18,0,16,3,Partial,DiseaseFree,36,LIVING,36,73.119
+SC01284A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,64,F,rectum,mod,0,15,0,5,3,Partial,DiseaseFree,36,LIVING,36,55.568
+SC01285A,oxali/cape/rt - the Socrates regimen,3,2,0,yT3,yN2,yT3N2,C1,N,68,F,rectum,mod,4,29,0,4,3,Partial,DiseaseFree,0,NA,36,54.534
+SC01286A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,N,52,F,rectum,mod,0,12,0,6,3,Partial,DiseaseFree,36,LIVING,45.99442415,36.802
+SC01287A,oxali/cape/rt - the Socrates regimen,3,2,0,yT3,yN2,yT3N2,C1,N,47,F,rectum,mod,8,32,0,0,3,Partial,DiseaseFree,0,NA,36,39.477
+SC01288A,oxali/cape/rt - the Socrates regimen,NA,NA,1,yT3,yN0,yT3N0,B,N,49,M,rectum,mod,0,21,0,0,3,Partial,DiseaseFree,0,NA,36,33.499
+SC01290A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN0,yT3N0,B,N,89,M,rectum,mod,0,11,0,9,3,Partial,DiseaseFree,0,NA,36,74.704
+SC01291A,oxali/cape/rt - the Socrates regimen,NA,NA,NA,yT3,yN1,yT3N1,C1,N,53,F,rectum,mod,1,15,0,1,3,Partial,DiseaseFree,0,NA,36,60.433
+SC01292A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN0,yT3N0,B,N,82,M,rectum,mod,0,16,0,7,2,Partial,DiseaseFree,0,NA,36,56.435
+SC01293A,Standard Cap RT,3,0,0,yT2,yN1,yT2N1,C1,N,64,F,rectum,mod,1,21,0,5.5,2,Partial,Recurred/Progressed,11.24381205,DECEASED,38.20265966,59.525
+SC01294A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT2,yN0,yT2N0,A,N,78,F,rectum,mod,0,21,0,11,3,Partial,DiseaseFree,0,NA,36,42.16
+SC01295A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN0,yT3N0,B,N,61,M,rectum,mod,0,25,0,11,3,Partial,DiseaseFree,0,NA,36,74.579
+SC01296A,oxali/cape/rt - the Socrates regimen,3,0,0,yT3,yN0,yT3N0,B,Y,61,M,rectum,mod,0,20,0,1,2,Partial,DiseaseFree,0,NA,36,45.325
+SC01297A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN0,yT3N0,B,N,67,M,rectum,poor,0,23,0,9,3,Partial,DiseaseFree,0,NA,36,26.314
+SC01298A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN0,yT3N0,B,N,78,M,rectum,mod,0,28,0,20,3,Partial,DiseaseFree,0,NA,36,70.959
+SC01299A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,N,57,M,rectum,mod,0,15,0,19,3,Partial,DiseaseFree,34.09307923,LIVING,34.09307923,47.673
+SC01302A,oxali/cape/rt - the Socrates regimen,4,0,1,yT3,yN0,yT3N0,B,N,77,M,rectum,mod,0,14,0,5,3,Partial,DiseaseFree,0,NA,36,15.877
+SC01303A,no concurrent chemo -  25Gy/5#s with delay,3,0,0,yT3,yN2,yT3N2,C1,Y,56,F,rectum,mod,5,41,0,2,3,Partial,DiseaseFree,0,NA,36,56.399
+SC01304A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT3,yN0,yT3N0,B,N,81,F,rectum,mod,0,18,0,12,3,Partial,DiseaseFree,0,NA,36,45.15
+SC01306A,oxali/cape/rt - the Socrates regimen,3,1,0,yT3,yN0,yT3N0,B,N,45,M,rectum,mod,0,44,0,2.5,3,Partial,DiseaseFree,0,NA,36,55.179
+SC01307A,Standard Cap RT,3,1,0,yT3,yN0,yT3N0,B,Y,75,M,rectum,mod,0,18,0,30,NA,Partial,DiseaseFree,36,LIVING,36,45.497
+SC01308A,Standard Cap RT,NA,NA,NA,yT3,yN0,yT3N0,B,N,42,F,rectum,mod,0,21,0,6,2,Partial,Recurred/Progressed,20.21913571,DECEASED,20.21913571,37.83
+SC01309A,no concurrent chemo -  25Gy/5#s with delay,2,0,0,yT2,yN0,yT2N0,A,Y,50,F,rectum,mod,0,24,0,12,2,Partial,DiseaseFree,0,NA,36,51.769
+SC01310A,Standard Cap RT,3,1,0,yT2,yN0,yT2N0,A,Y,74,F,rectum,mod,0,14,0,5,NA,Partial,DiseaseFree,33.83006608,LIVING,33.83006608,52.337
+SC01311A,no concurrent chemo -  25Gy/5#s with delay,3,1,0,yT2,yN0,yT2N0,A,N,75,M,rectum,mod,0,11,0,5,3,Partial,DiseaseFree,0,NA,36,16.191
+SC01312A,no concurrent chemo -  25Gy/5#s with delay,2,1,0,yT3,yN1,yT3N1,C1,N,76,F,rectum,mod,1,28,0,5,3,Partial,DiseaseFree,0,NA,36,51.187
+SC01313A,oxali/cape/rt - the Socrates regimen,3,2,0,yT3,yN0,yT3N0,B,Y,62,M,rectum,mod,0,18,0,13,3,Partial,DiseaseFree,0,NA,36,36.513
+SC01315A,oxali/cape/rt - the Socrates regimen,4,2,0,yT3,yN2,yT3N2,C1,N,31,F,rectum,mod,5,20,0,2,3,Partial,DiseaseFree,0,NA,36,51.72
+SC01316A,Standard Cap RT,3,1,0,yT3,yN2,yT3N2,C1,Y,69,M,rectum,mod,4,32,0,10,3,Partial,DiseaseFree,36,LIVING,36,41.386
+SC01317A,no concurrent chemo -  25Gy/5#s with delay,2,0,0,yT3,yN0,yT3N0,B,N,75,M,rectum,mod,0,23,0,5,2,Partial,DiseaseFree,0,NA,36,34.705
+SC01318A,oxali/cape/rt - the Socrates regimen,3,0,0,yT3,yN0,yT3N0,B,Y,50,M,rectum,mod,0,26,0,14,3,Partial,DiseaseFree,0,NA,36,42.565

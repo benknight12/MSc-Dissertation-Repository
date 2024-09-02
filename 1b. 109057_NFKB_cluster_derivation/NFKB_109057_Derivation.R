@@ -26,7 +26,7 @@ centroids <- rbind(colMeans(nfkb_109057[label_data(nfkb_109057)=="up_NFKB1_RELA_
 kmeans_109057_nfkb <- kmeans(nfkb_109057, centers=centroids, nstart = 30)
 save(kmeans_109057_nfkb, file = "1b. 109057_NFKB_cluster_derivation/kmeans_object.RData")
 load("Useful_Functions/find_means.RData")
-find_means(nfkb_109057, kmeans_109057$cluster)
+find_means(nfkb_109057, kmeans_109057_nfkb$cluster)
 table(kmeans_109057$cluster)
 
 ### The means suggest cluster 1 is Canonical, cluster 2 is NonCanonical and cluster 3 is Atypical

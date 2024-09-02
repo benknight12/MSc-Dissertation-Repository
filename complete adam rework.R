@@ -80,3 +80,23 @@ length(intersect(conclusive_scort_genes$Canonical, signif_87211$Canonical))
 
 similar1 <- intersect(intersect(signif_109057$Canonical, signif_87211$Canonical), intersect(conclusive_scort_genes$Canonical, signif_145037$Canonical))
 similar1
+
+
+head(full_87211[,(ncol(full_87211)-1:ncol(full_87211))])
+
+head(labelled_87211[,1:5])
+dim(labelled_87211)
+
+
+lapply(reduced_pheno,function(x) {table(is.na(x))})
+names(pheno_87211)
+reduced_pheno <- pheno_87211[,c("depth.of.invasion.before.rct.ch1","cancer.recurrance.after.surgery.ch1","death.due.to.tumor.ch1","disease.free.time..month..ch1", "survival.time..month..ch1")]
+names(reduced_pheno) <- c("TRG", "DFS.Status", "OS.Status", "DFS", "OS")
+head(reduced_pheno)
+reduced_pheno$cluster <- final_87211_clusters
+
+
+table(reduced_pheno[is.na(reduced_pheno)])
+sum(is.na(reduced_pheno)
+
+    

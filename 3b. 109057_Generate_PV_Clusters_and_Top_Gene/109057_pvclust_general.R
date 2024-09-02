@@ -15,6 +15,7 @@ plot(pv_result)
 table(cutree(pv_result$hclust, k=3))
 clusters <- cutree(pv_result$hclust, k=3)
 
+load("3b. 109057_Generate_PV_Clusters_and_Top_Gene/pv_object.RData")
 
 load("Useful_Functions/find_means.RData")
 nfkb_four_genes <- c("NFKB1", "RELA",  "NFKB2", "RELB")

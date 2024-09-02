@@ -9,8 +9,8 @@ library(xgboost)
 # Data prep
 labelled_scort <- read.csv("CB_normalized_data/scort_normalized.csv", row.names = 1)
 pheno <- read.csv("Processed_Data_Sets/scort.csv", row.names = 1)
-
-X <- labelled_scort[, 16:ncol(labelled_scort)]
+dim(labelled_scort)
+X <- labelled_scort
 y <- pheno$TRG
 
 
@@ -37,9 +37,18 @@ y_test_cat <- to_categorical(as.numeric(y_test) - 1)
 
 
 ### Train all models
+library(keras)
+library(tensorflow)
+install_tensorflow()
+library(reticulate)
+virtualenv_create("r-tensorflow")
+use_virtualenv("r-tensorflow", required = TRUE)
+install_tensorflow(envname = "r-tensorflow")
+py_run_string("import tensorflow as tf; print(tf.__version__)")
 ## enet
+
 model <- keras_model_sequential() %>%
-  layer_dense(units = 64, activation = 'relu', input_shape = ncol(X_train_selected_enet)) %>%
+  layer_dense(units = 64, activation = 'relu', input_shape = list(ncol(X_train_selected_enet))) %>%
   layer_dropout(rate = 0.5) %>%
   layer_dense(units = 32, activation = 'relu') %>%
   layer_dropout(rate = 0.5) %>%
@@ -49,6 +58,7 @@ model %>% compile(
   optimizer = tf$keras$optimizers$legacy$Adam(),
   metrics = c('accuracy')
 )
+
 history_enet <- model %>% fit(
   as.matrix(X_train_selected_enet), y_train_cat,
   epochs = 100,

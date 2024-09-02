@@ -11,7 +11,7 @@ save(pv_result, file="3c. 145037_Generate_PV_Clusters_and_Top_Gene/pv_object.RDa
 plot(pv_result)
 heatmap(as.matrix(scaled_145037), scale = "column")
 
-
+load("3c. 145037_Generate_PV_Clusters_and_Top_Gene/pv_object.RData")
 table(cutree(pv_result$hclust, k=3))
 clusters <- cutree(pv_result$hclust, k=3)
 

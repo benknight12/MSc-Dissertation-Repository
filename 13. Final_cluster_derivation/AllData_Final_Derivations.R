@@ -157,9 +157,12 @@ final_87211_clusters <- clusters
 length(final_87211_clusters)
 write.csv(final_87211_clusters, "13. Final_cluster_derivation/final_87211_clusters.csv")
 
-
-
-
+install.packages("citation")
+library(citation)
+x <- citation("pvclust")
+toBibtex(citation("pvclust"))
+toBibtex(citation("oligo"))
+toBibtex(citation("AnnotationForge"))
 
 
 pheno_87211 <- read.csv("Processed_Data_Sets/pheno87211.csv",row.names = 1)

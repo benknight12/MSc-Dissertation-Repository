@@ -410,6 +410,7 @@ length(all_shared_genes)
 pvalue_47genes <- stats::binom.test(20, n=length(all_shared_genes), p=prob_gene_shared)
 pvalue_47genes$p.value
 ## Perform binomial calculation with 18080 trials and p=0.001564942 but acc get 47:
+length(all_shared_genes)
 pvalue_47genes3 <- stats::binom.test(3, n=length(all_shared_genes), p=prob_gene_shared)
 pvalue_47genes2 <- stats::binom.test(2, n=length(all_shared_genes), p=prob_gene_shared)
 pvalue_47genes1 <- stats::binom.test(1, n=length(all_shared_genes), p=prob_gene_shared)
@@ -418,8 +419,15 @@ pvalue_47genes0 <- stats::binom.test(0, n=length(all_shared_genes), p=prob_gene_
 pvalue_47genes0$p.value
 log(1.75,2)
 
+
+scaled_scort <- read.csv("CB_normalized_data/scaled_scort.csv")
+load("Finalised_List_of_Canonical_Genes.RData")
+gene_list<-final_lists_all_sets
 df <- scaled_scort[,gene_list]
 names(df)
+expected_gene_expression <- rep("Down", 20)
+names(expected_gene_expression) <- final_lists_all_sets
+expected_gene_expression[c("CKS2","RPS17")] <- "Up"
 expected_gene_expression
 obtain_goodorbad <- function(df){
   new_df <- data.frame(matrix(rep(0,nrow(df)*ncol(df)), ncol=ncol(df), nrow=nrow(df)), row.names = row.names(df))
@@ -436,6 +444,7 @@ obtain_goodorbad <- function(df){
 }
 expected_gene_expression
 x <- obtain_goodorbad(df)
+
 x
 ## 1 marks not canlnocal
 x_new <- as.data.frame(sapply(x, function(y){as.numeric(as.factor(y))-1}))
@@ -471,10 +480,16 @@ x_new_new$binary_response <- as.factor(as.numeric(as.factor(ifelse(survival_scor
 
 test1 <- glm(as.formula(paste0("binary_response ~", paste0(gene_list, collapse= "+"))), data = x_new_new, family = "binomial")
 sjPlot::tab_model(test1)
-
+scaled_87211 <- read.csv("../scaled_87211.csv", row.names = 1)
+pheno_87211 <- read.csv("Processed_Data_Sets/pheno87211.csv")
+relevantcols <- pheno_87211[,c("depth.of.invasion.after.rct.ch1", "disease.free.time..month..ch1", "cancer.recurrance.after.surgery.ch1", "survival.time..month..ch1","death.due.to.tumor.ch1")]
+names(relevantcols) <- c("TRG", "DFS", "DFS.Status", "OS", "OS.Status")
 x_new_87211 <- scaled_87211[complete.cases(relevantcols),gene_list]
-x_new_87211$binary_response <- as.factor(as.numeric(as.factor(ifelse(survival_gse87211$TRG%in%c(0, 1), "good", "bad")))-1)
-head(cbind(x_new_87211, survival_gse87211$TRG))
+
+relevantcols$TRG
+x_new_87211$binary_response <- as.factor(as.numeric(as.factor(ifelse(relevantcols[complete.cases((relevantcols)),]$TRG%in%c(0, 1, 2), "good", "bad")))-1)
+
+head(cbind(x_new_87211))
 test2 <- glm(as.formula(paste0("binary_response ~", paste0(gene_list, collapse= "+"))), data = x_new_87211, family = "binomial")
 sjPlot::tab_model(test2)
 
@@ -511,8 +526,18 @@ x_new_new$`Number Canonical Matches`
 mod1 <- glm(binary_response~`Number Canonical Matches`, family = binomial, data=x_new_new)
 sjPlot::tab_model(mod1)
 
+create_binary_columns <- function(df) {
+  for (col in colnames(df)) {
+    median_value <- median(df[[col]], na.rm = TRUE)
+    binary_col <- ifelse(df[[col]] > median_value, 'Up', 'Down')
+    df[[paste0(col, '_binary')]] <- binary_col
+  }
+  return(df)
+}
 
-temp_87211 <- (create_binary_columns(x_new_87211[,-ncol(x_new_87211)]))[,(1+length(expected_gene_expression)):(2*length(expected_gene_expression))]
+temp_87211 <- (create_binary_columns(x_new_87211[,-c(ncol(x_new_87211),ncol(x_new_87211)-1)]))[,(1+length(expected_gene_expression)):(2*length(expected_gene_expression))]
+temp_87211
+expected_gene_expression
 for(i in 1:(nrow(x_new_87211))){
   count <- sum(temp_87211[i,] == expected_gene_expression)
   x_new_87211$expected_reg[i] <- count

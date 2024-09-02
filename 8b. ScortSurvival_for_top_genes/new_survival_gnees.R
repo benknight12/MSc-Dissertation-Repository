@@ -104,23 +104,33 @@ for (i in gene_list){
 colnames(emprty) <- c("pCR", "Good partial reponse", "Partial response", "Minimal or no response")
 emprty
 
-survival_gse87211$TRG
+new_df$trg
+gene_list <-final_lists_all_sets
 emprty87211 <- as.data.frame(matrix(rep(0,10*length(gene_list)),ncol=5,nrow = 2*length(gene_list)))
 rownames(emprty87211) <- c(paste0(gene_list, "_up"),paste0(gene_list, "_down"))
 emprty87211 <- emprty87211[order(rownames(emprty87211)),]
-head(survival_gse87211)
-survival_gse87211$TRG <- factor(survival_gse87211$TRG, c(0,1,2,3,4), c("pCR","Good partial response", "Partial repsonse", "Minimal response", "No Response"))
+head(new_df)
+new_df$trg <- factor(new_df$trg, c(0,1,2,3,4), c("pCR","Good partial response", "Partial repsonse", "Minimal response", "No Response"))
 gene_list<- gene_list[!is.na(gene_list)]
+
+new_df2$trg<-new_df$trg
+as.data.frame(new_df2[new_df2[,1]=="Up",1])
+names(new_df2) <- c(gene_list, "trg")
+table(is.na(new_df2))
+new_df2<-new_df2[complete.cases(new_df2),]
 for (i in gene_list){
-  upset <- cbind(as.data.frame(survival_gse87211[survival_gse87211[,i]=="upregulated",i]), as.data.frame(survival_gse87211[survival_gse87211[,i]=="upregulated","TRG"]))
-  downset <- cbind(as.data.frame(survival_gse87211[survival_gse87211[,i]=="downregulated",i]), as.data.frame(survival_gse87211[survival_gse87211[,i]=="downregulated","TRG"]))
+  upset <- cbind(as.data.frame(new_df2[new_df2[,i]=="Up",i]), as.data.frame(new_df2[new_df2[,i]=="Up","trg"]))
+  downset <- cbind(as.data.frame(new_df2[new_df2[,i]=="Down",i]), as.data.frame(new_df2[new_df2[,i]=="Down","trg"]))
+
   names(upset) <- c("cat","TRG")
   names(downset) <- c("cat","TRG")
+  print(sum(upset$TRG=="pCR"))
   upproportions <- c(sum(upset$TRG=="pCR")/length(upset$TRG), sum(upset$TRG=="Good partial response")/length(upset$TRG),sum(upset$TRG=="Partial repsonse")/length(upset$TRG),sum(upset$TRG=="Minimal response")/length(upset$TRG),sum(upset$TRG=="No Response")/length(upset$TRG))
   downproportions <- c(sum(downset$TRG=="pCR")/length(downset$TRG), sum(downset$TRG=="Good partial response")/length(downset$TRG),sum(downset$TRG=="Partial repsonse")/length(downset$TRG),sum(downset$TRG=="Minimal response")/length(downset$TRG),sum(downset$TRG=="No Response")/length(downset$TRG))
   emprty87211[rownames(emprty87211) == paste0(i,"_up"),]<-upproportions
   emprty87211[rownames(emprty87211) == paste0(i,"_down"),]<-downproportions
 }
+emprty87211
 colnames(emprty87211) <- c("pCR", "Good partial reponse", "Partial response", "Minimal response", "No Response")
 sum(emprty87211[2,])
 emprty87211
@@ -294,4 +304,17 @@ for(i in gene_list){
     print(i)
   }
 }
+
+
+
+minipheno <- pheno_87211[,c("depth.of.invasion.after.rct.ch1","survival.time..month..ch1","disease.free.time..month..ch1","death.due.to.tumor.ch1","cancer.recurrance.after.surgery.ch1")]
+names(minipheno) <- c("TRG","OS","DFS", "OS.Status", "DFS.Status")
+table(!is.na(pheno_87211$depth.of.invasion.after.rct.ch1))
+cc <- pheno_87211$depth.of.invasion.after.rct.ch1[complete.cases(minipheno)]
+missing <- pheno_87211$depth.of.invasion.after.rct.ch1[!complete.cases(minipheno)]
+table(minipheno$TRG[!complete.cases(minipheno)])
+table(minipheno$OS.Status[!complete.cases(minipheno)])
+table(minipheno$DFS.Status[!complete.cases(minipheno)])
+install.packages("BaylorEdPsych")
+
 

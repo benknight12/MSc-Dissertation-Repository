@@ -30,7 +30,9 @@ centroids <- rbind(
 kmeans_145037_nfkb <- kmeans(nfkb_145037, centers=centroids, nstart = 30)
 save(kmeans_145037_nfkb, file = "1c. 145037_NFKB_cluster_derivation/kmeans_object.RData")
 load("Useful_Functions/find_means.RData")
-find_means(nfkb_145037, kmeans_145037$cluster)
+load("1c. 145037_NFKB_cluster_derivation/kmeans_object.RData")
+
+find_means(nfkb_145037, kmeans_145037_nfkb$cluster)
 ## c1 = canonical, c2= noncaonical, c2 =atypical
 table(kmeans_145037$cluster)
 

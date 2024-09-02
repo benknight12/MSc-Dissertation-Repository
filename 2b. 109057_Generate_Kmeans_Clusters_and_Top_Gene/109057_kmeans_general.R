@@ -8,10 +8,11 @@ save(cluster_kmeans, file="2b. 109057_Generate_Kmeans_Clusters_and_Top_Gene/kmea
 table(cluster_kmeans$cluster)
 
 load("Useful_Functions/find_means.RData")
+load("2b. 109057_Generate_Kmeans_Clusters_and_Top_Gene/kmeans_object.RData")
 nfkb_four_genes <- c("NFKB1", "RELA",  "NFKB2", "RELB")
 find_means(scaled_109057[,nfkb_four_genes], clusters = cluster_kmeans$cluster)
 
-## Means indicate Cluster 1 is Canonical 2 is noncanonical and cluster 3 is canonical
+s## Means indicate Cluster 1 is Canonical 2 is noncanonical and cluster 3 is canonical
 clusters <- factor(cluster_kmeans$cluster, levels = c(1,2,3), labels = c("Canonical", "NonCanonical", "Atypical"))
 write.csv(clusters, "2b. 109057_Generate_Kmeans_Clusters_and_Top_Gene/clusters_lists.csv")
 

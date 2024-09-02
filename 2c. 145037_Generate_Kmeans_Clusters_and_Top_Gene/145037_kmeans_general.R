@@ -7,6 +7,7 @@ save(cluster_kmeans, file="2c. 145037_Generate_Kmeans_Clusters_and_Top_Gene/kmea
 table(cluster_kmeans$cluster)
 
 load("Useful_Functions/find_means.RData")
+load("2c. 145037_Generate_Kmeans_Clusters_and_Top_Gene/kmeans_object.RData")
 nfkb_four_genes <- c("NFKB1", "RELA",  "NFKB2", "RELB")
 find_means(scaled_145037[,nfkb_four_genes], clusters = cluster_kmeans$cluster)
 

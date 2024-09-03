@@ -307,14 +307,4 @@ for(i in gene_list){
 
 
 
-minipheno <- pheno_87211[,c("depth.of.invasion.after.rct.ch1","survival.time..month..ch1","disease.free.time..month..ch1","death.due.to.tumor.ch1","cancer.recurrance.after.surgery.ch1")]
-names(minipheno) <- c("TRG","OS","DFS", "OS.Status", "DFS.Status")
-table(!is.na(pheno_87211$depth.of.invasion.after.rct.ch1))
-cc <- pheno_87211$depth.of.invasion.after.rct.ch1[complete.cases(minipheno)]
-missing <- pheno_87211$depth.of.invasion.after.rct.ch1[!complete.cases(minipheno)]
-table(minipheno$TRG[!complete.cases(minipheno)])
-table(minipheno$OS.Status[!complete.cases(minipheno)])
-table(minipheno$DFS.Status[!complete.cases(minipheno)])
-install.packages("BaylorEdPsych")
-
 

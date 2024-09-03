@@ -10,8 +10,8 @@ library(xgboost)
 labelled_scort <- read.csv("CB_normalized_data/scort_normalized.csv", row.names = 1)
 pheno <- read.csv("Processed_Data_Sets/scort.csv", row.names = 1)
 dim(labelled_scort)
-X <- labelled_scort
-y <- pheno$TRG
+Xtrain <- labelled_scort
+ytrain <- pheno$TRG
 
 
 y <- as.factor(y)
